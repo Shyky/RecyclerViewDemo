@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">SmartRecyclerView</string>
+    <string-array name="menus">
+        <item>ListView</item>
+        <item>GridView</item>
+        <item>ExpandedListView</item>
+        <item>RecyclerView</item>
+        <item>SmartRecyclerView（自定义RecyclerView）</item>
+    </string-array>
+    <string-array name="list_view_functions">
+        <item>ArrayAdapter</item>
+        <item>SimpleAdapter</item>
+        <item>Custom Adapter</item>
+        <item>setOnItemClickListener</item>
+        <item>setOnItemLongClickListener</item>
+        <item>Divider</item>
+        <item>Header</item>
+        <item>Footer</item>
+        <item>Header and Footer</item>
+        <item>SingleChoice attr or function</item>
+        <item>SingleChoice custom adapter</item>
+        <item>MultipleChoice attr or function</item>
+        <item>MultipleChoice custom adapter</item>
+    </string-array>
+    <string-array name="grid_view_functions">
+        <item>ArrayAdapter</item>
+        <item>setOnItemClickListener</item>
+        <item>setOnItemLongClickListener</item>
+        <item>秒变瀑布流</item>
+        <item>SwipeRefreshLayout</item>
+        <item>DividerItemDecoration</item>
+        <item>SingleChoice</item>
+    </string-array>
+    <string-array name="recycler_view_functions">
+        <item>Simple sample</item>
+        <item>Divider</item>
+        <item>ArrayAdapter</item>
+        <item>SimpleAdapter</item>
+        <item>Custom Adapter</item>
+        <item>setOnItemClickListener</item>
+        <item>setOnItemLongClickListener</item>
+        <item>Divider</item>
+        <item>Header</item>
+        <item>Footer</item>
+        <item>Header and Footer</item>
+        <item>Multiple Header and Footer</item>
+        <item>SingleChoice</item>
+        <item>MultipleChoice</item>
+    </string-array>
+    <string-array name="smart_recycler_view_functions">
+        <item>ArrayAdapter</item>
+        <item>setOnItemClickListener</item>
+        <item>setOnItemLongClickListener</item>
+        <item>秒变瀑布流</item>
+        <item>SwipeRefreshLayout</item>
+        <item>DividerItemDecoration</item>
+        <item>MultipleChoice</item>
+    </string-array>
+    <string-array name="entries">
+        <item>aa</item>
+        <item>ab</item>
+        <item>ac</item>
+        <item>ad</item>
+        <item>ae</item>
+        <item>ba</item>
+        <item>bb</item>
+        <item>bc</item>
+    </string-array>
+</resources>

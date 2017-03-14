@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shyky.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListViewFunctionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SingleChoiceListViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SingleChoiceListViewActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MultipleChoiceListViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MultipleChoiceListViewActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GridViewFunctionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExpandableListViewFunctionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleExpandableListViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecyclerViewFunctionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DividerItemDecorationRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SingleChoiceRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MultipleHeaderFooterRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MultipleChoiceRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SmartRecyclerViewFunctionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".library.MultipleChoiceSmartRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArrayAdapterRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".library.SetOnItemClickListenerRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".library.SetOnItemLongClickListenerRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".library.SetOnItemSelectedListenerRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StaggeredGridLayoutManagerRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SwipeRefreshLayoutRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DividerRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

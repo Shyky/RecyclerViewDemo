@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmartRecyclerView">
+        <!-- Reference to an array resource that will populate the ListView.  For static content,
+             this is simpler than populating the ListView programmatically. -->
+        <attr name="android:entries" />
+        <!-- Drawable or color to draw between list items. -->
+        <attr name="android:divider" />
+        <!-- Height of the divider. Will use the intrinsic height of the divider if this
+             is not specified. -->
+        <attr name="android:dividerHeight" />
+        <!-- When set to false, the ListView will not draw the divider after each header view.
+             The default value is true. -->
+        <attr name="android:headerDividersEnabled" />
+        <!-- When set to false, the ListView will not draw the divider before each footer view.
+             The default value is true. -->
+        <attr name="android:footerDividersEnabled" />
+        <!-- Drawable to draw above list content. -->
+        <attr name="android:overScrollHeader" />
+        <!-- Drawable to draw below list content. -->
+        <attr name="android:overScrollFooter" />
+
+        <!--跟上面一样作用的属性-->
+        <attr name="app_entries" format="reference" />
+        <attr name="app_divider" format="reference|color" />
+        <attr name="app_dividerHeight" format="dimension" />
+        <attr name="app_headerDividersEnabled" format="boolean" />
+        <attr name="app_footerDividersEnabled" format="boolean" />
+        <attr name="app_overScrollHeader" format="reference|color" />
+        <attr name="app_overScrollFooter" format="reference|color" />
+    </declare-styleable>
+</resources>
